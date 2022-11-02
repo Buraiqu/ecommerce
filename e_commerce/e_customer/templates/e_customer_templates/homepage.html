@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Home Page</h1>
+    <br>
+    <h3><a href="{% url 'e_customer:cart' %}">Cart</a></h3>
+    <h3><a href="{% url 'e_customer:product_details' %}">Product Details</a></h3>
+    <h3><a href="{% url 'e_customer:my_orders' %}">My Orders</a></h3>
+    <h3><a href="{% url 'e_customer:view_profile' %}">View Profile</a></h3>
+    <h3><a href="{% url 'e_customer:change_passwordd' %}">Change Password</a></h3>
+</body>
+</html>
